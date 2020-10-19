@@ -1,0 +1,85 @@
+
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
+
+.arrow-down {
+    display: none;    
+}
+
+.collapsed .arrow-down {
+    font-family: 'FontAwesome';
+    display: block;
+}
+
+.arrow-up {
+    font-family: 'FontAwesome';    
+    display: block;
+}
+
+.collapsed .arrow-up {
+    display: none;
+}
+
+.collapsed-visible {
+    visibility: hidden;
+}
+
+.collapsed .collapsed-visible {
+    visibility: visible;
+}
+
+.accordion .card-header {
+    background-color: white;
+    border-bottom: transparent;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+
+}
+
+.accordion .card .row {
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+
+h5 {
+    display: inline;
+}
+
+.accordion .card-body {
+    padding: 0rem 1.5rem 1rem 1.5rem;
+}
+
+@media (max-width: 576px)
+{
+    .accordion .card-header {
+        font-size: 11px;
+        padding: 8px 5px;
+    }    
+}
+
+.link-unstyled, .link-unstyled:link, .link-unstyled:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.image-right-text {
+    margin-left: 4px;
+}
+
+.temperature-text {
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 700;    
+    padding: 0rem 0rem 0rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
+}
+
+.text-right-image {
+    margin-left: 10px;
+}
+
+.col, .col-1, .col-2, .col-3, .col-4 {
+    padding-left: 0px;
+}
+
+.margin-top-10 {
+    margin-top: 15px;
+}
